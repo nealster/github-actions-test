@@ -20,6 +20,7 @@ jobs:
           echo $GITHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
           echo "${{ github.token }}"
+          # remark example
       - name: Simple JS Action
         id: greet
         uses: actions/hello-world-javascript-action@v1.1
